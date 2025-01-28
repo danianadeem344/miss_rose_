@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .container{
+  display: block;
+  flex-wrap: wrap;
+    border-top-left-radius: 5px;
+    background-color: black;
+    height: 40px;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+}
+.header h3{
+    flex: 1 1 auto;
+    font-family: Verdana;
+    font-size: small;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+
+}
+.header span{
+    color: orange;
+}
+.header .one{
+    display: block;
+    font-family: Verdana;
+    font-size: small;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    padding-top: 10px;
+}
+.nav {
+    font-family: Verdana;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+.nav  .nav-links .item{
+    font-family: 'Times New Roman';
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.nav .nav-links li a {
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+}
+.nav .nav-links li a:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.review {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+h3 {
+  font-family: Verdana;
+  margin: 10px;
+  font-size: medium;
+  color: black;
+}
+p{
+  font-family: Verdana;
+  font-size: medium;
+  color: black;
+}
+
+.rating {
+  color: #ffa500;
+  margin: 10px;
+}
+
+.comment {
+  font-family: Verdana;
+  color: black;
+  font-size: medium;
+  margin-top: 10px;
+}
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  .footer-container h3{
+    font-family: Verdana;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .footer-container ul{
+    display: block;
+    font-family: Verdana;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .footer-container li{
+    list-style-type: none;
+    padding: 10px;
+    color: #494949;
+  }
+  .footer-container li:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .footer-container p{
+    font-family: Verdana;
+    font-size: medium;
+    color: #494949;
+  }
+  .footer-container p .card:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+ 
+  

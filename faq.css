@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .container{
+    display: block;
+    flex-wrap: wrap;
+    border-top-left-radius: 5px;
+    background-color: black;
+    height: 40px;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+}
+.header h3{
+    flex: 1 1 auto;
+    font-family: Verdana;
+    font-size: small;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.header span{
+    color: orange;
+}
+.header .one{
+    display: block;
+    font-family: Verdana;
+    font-size: small;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+.nav {
+    font-family: Verdana;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+.nav  .nav-links .item{
+    font-family: 'Times New Roman';
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.nav .nav-links li a {
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+}
+.nav .nav-links li a:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;;
+}
+.faq-container{
+    font-family: Verdana;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2px;
+}
+h1{
+    text-align: center;
+}
+.faq{
+    margin-bottom: 10px;
+}
+.faq-question{
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    font-size: large;
+    color: #494949;
+}
+.faq-question:hover{
+    color: black;
+}
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  .footer-container h3{
+    font-family: Verdana;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .footer-container ul {
+    display: block;
+    font-family: Verdana;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .footer-container li{
+    list-style-type: none;
+    padding: 10px;
+    color: #494949;
+  }
+  .footer-container li:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .footer-container p{
+    font-family: Verdana;
+    font-size: medium;
+    color: #494949;
+  }
+  .footer-container p .card:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
